@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testCase>
+  <summary/>
+  <steps>
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" name="ApexConnect" testItemId="1" title="Salesforce Connect: Admin (Test)">
+      <arguments>
+        <argument id="connectionName">
+          <value class="value" valueClass="string">Admin</value>
+        </argument>
+        <argument id="resultName">
+          <value class="value" valueClass="string">Admin</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+        <argument id="uiApplicationName">
+          <value class="value" valueClass="string">Sales</value>
+        </argument>
+        <argument id="quickUiLogin">
+          <value class="value" valueClass="boolean">true</value>
+        </argument>
+        <argument id="closeAllPrimaryTabs">
+          <value class="value" valueClass="boolean">true</value>
+        </argument>
+        <argument id="reuseConnectionName"/>
+        <argument id="alreadyOpenBehaviour">
+          <value class="value" valueClass="string">Fail</value>
+        </argument>
+        <argument id="privateBrowsingMode"/>
+        <argument id="enableObjectIdLogging">
+          <value class="value" valueClass="boolean">true</value>
+        </argument>
+        <argument id="autoCleanup"/>
+        <argument id="cleanupConnectionName"/>
+        <argument id="logFileLocation"/>
+        <argument id="username"/>
+        <argument id="password"/>
+        <argument id="securityToken"/>
+        <argument id="environment"/>
+        <argument id="lightningMode">
+          <value class="value" valueClass="string">default</value>
+        </argument>
+        <argument id="webBrowser"/>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.WaitFor" name="WaitFor" testItemId="2" title="Wait For: =&gt;{30}">
+      <arguments>
+        <argument id="condition"/>
+        <argument id="testAtStart"/>
+        <argument id="maxIterations">
+          <value class="value" valueClass="decimal">5</value>
+        </argument>
+        <argument id="sleepSecs">
+          <value class="value" valueClass="decimal">30</value>
+        </argument>
+        <argument id="continueOnFailure"/>
+      </arguments>
+      <clauses>
+        <clause name="substeps" testItemId="3"/>
+      </clauses>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.Finally" name="Finally" testItemId="4" title="Finally: ">
+      <arguments>
+        <argument id="description"/>
+      </arguments>
+      <clauses>
+        <clause name="hidden" testItemId="5"/>
+      </clauses>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.string.Split" name="Split" testItemId="6" title="Split: =&gt;=&gt;Tokens">
+      <arguments>
+        <argument id="input"/>
+        <argument id="separator"/>
+        <argument id="resultName">
+          <value class="value" valueClass="string">Tokens</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.string.Match" name="Match" testItemId="7" title="Match: =&gt;=&gt;">
+      <arguments>
+        <argument id="input"/>
+        <argument id="regex"/>
+        <argument id="caseInsensitive"/>
+        <argument id="resultName"/>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.io.Read" name="Read" testItemId="8" title="Read: =&gt;Contents">
+      <arguments>
+        <argument id="urlString"/>
+        <argument id="contentFormat">
+          <value class="value" valueClass="string">Text</value>
+        </argument>
+        <argument id="contentEncoding">
+          <value class="value" valueClass="string">Default</value>
+        </argument>
+        <argument id="resultName">
+          <value class="value" valueClass="string">Contents</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+        <argument id="storeAs">
+          <value class="value" valueClass="string">Text</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.string.Replace" name="Replace" testItemId="9" title="Replace: =&gt;=&gt;replacement">
+      <arguments>
+        <argument id="input"/>
+        <argument id="find"/>
+        <argument id="replacement"/>
+        <argument id="caseInsensitive"/>
+        <argument id="resultName">
+          <value class="value" valueClass="string">replacement</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConvertLead" name="ApexConvertLead" testItemId="10" title="Convert Lead:  =&gt; //">
+      <arguments>
+        <argument id="apexConnectionName">
+          <value class="value" valueClass="string">ApexConnection</value>
+        </argument>
+        <argument id="leadId"/>
+        <argument id="accountId"/>
+        <argument id="contactId"/>
+        <argument id="ownerId"/>
+        <argument id="convertedStatus"/>
+        <argument id="createOpportunity"/>
+        <argument id="opportunityName"/>
+        <argument id="overwriteLeadSource"/>
+        <argument id="sendNotificationEmail"/>
+        <argument id="resultAccountIdName">
+          <value class="value" valueClass="string">convertedAccountId</value>
+        </argument>
+        <argument id="resultContactIdName">
+          <value class="value" valueClass="string">convertedContactId</value>
+        </argument>
+        <argument id="resultOpportunityIdName">
+          <value class="value" valueClass="string">convertedOpportunityId</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.db.DbConnect" name="DbConnect" testItemId="11" title="DB Connect: DbConnection">
+      <arguments>
+        <argument id="connectionName">
+          <value class="value" valueClass="string">DbConnection</value>
+        </argument>
+        <argument id="autoCommit">
+          <value class="value" valueClass="boolean">false</value>
+        </argument>
+        <argument id="ifAlreadyOpen">
+          <value class="value" valueClass="string">Reuse</value>
+        </argument>
+        <argument id="commitBehaviour">
+          <value class="value" valueClass="string">CommitIfSuccessful</value>
+        </argument>
+        <argument id="resultName">
+          <value class="value" valueClass="string">DbConnection</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Global</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.db.DbInsert" name="DbInsert" testItemId="12" title="DB Insert: DbConnection.=&gt;DbResults">
+      <arguments>
+        <argument id="dbConnectionName">
+          <value class="value" valueClass="string">DbConnection</value>
+        </argument>
+        <argument id="tableName"/>
+        <argument id="resultName">
+          <value class="value" valueClass="string">DbResults</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.db.SqlQuery" name="SqlQuery" testItemId="13" title="SQL Query: DbConnection=&gt;DbResults">
+      <arguments>
+        <argument id="dbConnectionName">
+          <value class="value" valueClass="string">DbConnection</value>
+        </argument>
+        <argument id="query"/>
+        <argument id="resultName">
+          <value class="value" valueClass="string">DbResults</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.AssertValues" name="AssertValues" testItemId="14" title="Assert:  EqualTo ">
+      <arguments>
+        <argument id="expectedValue"/>
+        <argument id="comparisonType">
+          <value class="value" valueClass="string">EqualTo</value>
+        </argument>
+        <argument id="actualValue"/>
+        <argument id="caseSensitive">
+          <value class="value" valueClass="boolean">true</value>
+        </argument>
+        <argument id="numeric">
+          <value class="value" valueClass="boolean">false</value>
+        </argument>
+        <argument id="retainDecimals">
+          <value class="value" valueClass="boolean">false</value>
+        </argument>
+        <argument id="nullGreater">
+          <value class="value" valueClass="boolean">false</value>
+        </argument>
+        <argument id="matchMultiLine">
+          <value class="value" valueClass="boolean">false</value>
+        </argument>
+        <argument id="matchDotAll">
+          <value class="value" valueClass="boolean">false</value>
+        </argument>
+        <argument id="failureMessage"/>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiAssert" name="UiAssert" testItemId="15" title="UI Assert">
+      <arguments>
+        <argument id="fieldAssertions">
+          <value class="valueList" mutable="Mutable">
+            <uiFieldAssertion/>
+          </value>
+        </argument>
+        <argument id="columnAssertions">
+          <value class="valueList" mutable="Mutable"/>
+        </argument>
+        <argument id="pageAssertions">
+          <value class="valueList" mutable="Mutable"/>
+        </argument>
+        <argument id="resultName"/>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+        <argument id="captureAfter">
+          <value class="value" valueClass="string">false</value>
+        </argument>
+        <argument id="beforeWait"/>
+        <argument id="autoRetry"/>
+      </arguments>
+    </apiCall>
+  </steps>
+</testCase>
