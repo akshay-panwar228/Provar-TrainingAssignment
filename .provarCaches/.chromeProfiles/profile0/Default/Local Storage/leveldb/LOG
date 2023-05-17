@@ -1,0 +1,5 @@
+2023/05/16-12:34:35.530 ce8 Creating DB C:\Users\akshay.panwar\Provar\WorkspaceAssignment\.provarCaches\.chromeProfiles\profile0\Default\Local Storage\leveldb since it was missing.
+2023/05/16-12:34:35.548 ce8 Reusing MANIFEST C:\Users\akshay.panwar\Provar\WorkspaceAssignment\.provarCaches\.chromeProfiles\profile0\Default\Local Storage\leveldb/MANIFEST-000001
+2023/05/16-12:34:42.808 df4 Level-0 table #5: started
+2023/05/16-12:34:42.820 df4 Level-0 table #5: 85597 bytes OK
+2023/05/16-12:34:42.824 df4 Delete type=0 #3

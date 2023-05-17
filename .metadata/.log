@@ -1,4 +1,4 @@
-!SESSION 2023-05-16 13:33:04.742 -----------------------------------------------
+!SESSION 2023-05-12 12:32:58.196 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=11.0.16.1
 java.vendor=Amazon.com Inc.
@@ -6,117 +6,145 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -Dcom.provar.devmode=false
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean -Dcom.provar.devmode=false
 
-!ENTRY com.atlassian.connector.eclipse.monitor.ui 4 0 2023-05-16 13:33:14.962
-!MESSAGE FrameworkEvent ERROR
-!STACK 0
-org.osgi.framework.BundleException: Could not resolve module: com.atlassian.connector.eclipse.monitor.ui [6]
-  Unresolved requirement: Require-Bundle: com.atlassian.connector.eclipse.branding.ui
+This is a continuation of log file C:\Users\akshay.panwar\Provar\WorkspaceAssignment\.metadata\.bak_0.log
+Created Time: 2023-05-12 17:15:42.557
 
-	at org.eclipse.osgi.container.Module.start(Module.java:463)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
-	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
-	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:15:42.559
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetTestRunOutputforExecutionItemHandler
 
-!ENTRY org.eclipse.ui 2 0 2023-05-16 13:36:22.582
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-16 13:36:22.582
-!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:33.794
+!MESSAGE Got Chrome IDE request.  method: IDE.getContextMenuPropertiesRequest, msg: {"messageId":79,"method":"IDE.getContextMenuPropertiesRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"testCaseSpecifier":{"disposition":"Existing","testCasePath":"C:\\Use
 
-!ENTRY org.eclipse.ui 2 0 2023-05-16 13:36:23.141
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-16 13:36:23.141
-!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:33.799
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetContextMenuPropertiesHandler
 
-!ENTRY org.eclipse.egit.ui 2 0 2023-05-16 13:36:25.993
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\akshay.panwar'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:36.477
+!MESSAGE Got Chrome IDE request.  method: IDE.getTestItemDetailsRequest, msg: {"messageId":80,"method":"IDE.getTestItemDetailsRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"testCaseSpecifier":{"disposition":"Existing","testCasePath":"C:\\Users\\ak
 
-!ENTRY org.eclipse.ui 4 0 2023-05-16 13:44:08.398
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:36.484
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetTestItemDetailsHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:36.741
+!MESSAGE Got Chrome IDE request.  method: IDE.getPageDetailsRequest, msg: {"messageId":81,"method":"IDE.getPageDetailsRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"connectionDetails":{"name":"UiTesting","url":"se:baseUrl=https://www.makemytri
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:36.745
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetPageDetailsHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:36.784
+!MESSAGE Got Chrome IDE request.  method: IDE.getPageObjectsWithScreenBindingRequest, msg: {"messageId":82,"method":"IDE.getPageObjectsWithScreenBindingRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"connectionDetails":{"name":"UiTesting:AmazonConnection","url"
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:36.788
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetPageObjectsWithScreenBindingHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:36.799
+!MESSAGE Got Chrome IDE request.  method: IDE.getPageDetailsRequest, msg: {"messageId":83,"method":"IDE.getPageDetailsRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"connectionDetails":{"name":"UiTesting:AmazonConnection","url":"se:baseUrl=http
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:36.803
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetPageDetailsHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:37.077
+!MESSAGE Got Chrome IDE request.  method: IDE.validateTestApiParameterRequest, msg: {"messageId":84,"method":"IDE.validateTestApiParameterRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"testApiId":"com.provar.plugins.forcedotcom.core.ui.UiAssert","testAp
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:37.079
+!MESSAGE Got Chrome IDE request.  method: IDE.validateTestExpressionRequest, msg: {"messageId":85,"method":"IDE.validateTestExpressionRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"expression":"Sorry, No Charters found for this search"}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:37.083
+!MESSAGE Got Chrome IDE request.  method: IDE.validateTestApiParameterRequest, msg: {"messageId":86,"method":"IDE.validateTestApiParameterRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"testApiId":"com.provar.plugins.forcedotcom.core.ui.UiAssert","testAp
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:37.087
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.ValidateTestApiParameterHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:37.091
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.ValidateTestExpressionHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:37.091
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.ValidateTestApiParameterHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:41.483
+!MESSAGE Got Chrome IDE request.  method: IDE.validateTestApiParameterRequest, msg: {"messageId":87,"method":"IDE.validateTestApiParameterRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"testApiId":"com.provar.plugins.forcedotcom.core.ui.UiAssert","testAp
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:41.491
+!MESSAGE Got Chrome IDE request.  method: IDE.validateTestApiParameterRequest, msg: {"messageId":88,"method":"IDE.validateTestApiParameterRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"testApiId":"com.provar.plugins.forcedotcom.core.ui.UiAssert","testAp
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:41.494
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.ValidateTestApiParameterHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:41.494
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.ValidateTestApiParameterHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:48.216
+!MESSAGE Got Chrome IDE request.  method: IDE.updateUiDoActionStepRequest, msg: {"messageId":89,"method":"IDE.updateUiDoActionStepRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"connectionDetails":{"name":"UiTesting:AmazonConnection","url":"se:baseUr
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:48.220
+!MESSAGE Got Chrome IDE request.  method: IDE.requestTestExecutionStatusUpdates, msg: {"messageId":90,"method":"IDE.requestTestExecutionStatusUpdates","sessionId":"12","action":null,"forValues":null,"xpathToParse":null}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:48.224
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.RequestTestExecutionStatusUpdatesHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:48.228
+!MESSAGE Got RequestTestExecutionStatusUpdates request.  sessionId: 12
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:48.237
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.UpdateUiDoActionStepHandler
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:16:48.542
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 156
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:16:49.017
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1683892009017
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:50.079
+!MESSAGE Got Chrome IDE request.  method: IDE.getContextMenuPropertiesRequest, msg: {"messageId":91,"method":"IDE.getContextMenuPropertiesRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"testCaseSpecifier":{"disposition":"Existing","testCasePath":"C:\\Use
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:50.085
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetContextMenuPropertiesHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:52.181
+!MESSAGE Got Chrome IDE request.  method: IDE.debugAction, msg: {"messageId":92,"method":"IDE.debugAction","sessionId":"12","action":"JumpTo","forValues":null,"xpathToParse":null,"executionItemId":"root:tests:UI Testing:Make My Trip Error Message.testcase:12:13:15
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:52.190
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.DebugActionHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:53.353
+!MESSAGE Got Chrome IDE request.  method: IDE.debugAction, msg: {"messageId":93,"method":"IDE.debugAction","sessionId":"12","action":"Resume","forValues":null,"xpathToParse":null}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:16:53.360
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.DebugActionHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:17:02.553
+!MESSAGE Got Chrome IDE request.  method: IDE.debugAction, msg: {"messageId":94,"method":"IDE.debugAction","sessionId":"12","action":"Pause","forValues":null,"xpathToParse":null}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:17:02.557
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.DebugActionHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:17:03.686
+!MESSAGE Got Chrome IDE request.  method: IDE.getContextMenuPropertiesRequest, msg: {"messageId":95,"method":"IDE.getContextMenuPropertiesRequest","sessionId":"12","action":null,"forValues":null,"xpathToParse":null,"testCaseSpecifier":{"disposition":"Existing","testCasePath":"C:\\Use
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:17:03.692
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetContextMenuPropertiesHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:17:10.045
+!MESSAGE Chrome IDE Endpoint closing.
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:10.050
+!MESSAGE Stopping Chrome IDE because of WebSocket disconnection.
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:17:10.053
+!MESSAGE Chrome IDE heartbeat listener exiting
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:17:11.444
+!MESSAGE (LHKHU6Z8) sendTestExecutionStatusUpdate: The requested sessionId was not found.  SessionId: 12
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:17:11.465
+!MESSAGE (LHKHU6ZC) sendTestExecutionStatusUpdate: The requested sessionId was not found.  SessionId: 12
+
+!ENTRY org.eclipse.ui 4 0 2023-05-12 17:17:16.194
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.cleanUpCopy(MenuManagerRenderer.java:474)
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.cleanUp(MenuManagerRenderer.java:449)
-	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.lambda$1(MenuManagerRenderer.java:421)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
-	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
-	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$0(WorkbenchWindow.java:329)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4792)
-	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:267)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:158)
-	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:181)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
-	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2088)
-	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
-	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1107)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1090)
-	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
-	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2466)
-	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.restart(OpenWorkspaceAction.java:221)
-	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.run(OpenWorkspaceAction.java:209)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.nebula.widgets.pgroup.PGroup.onMouseMove(PGroup.java:446)
+	at org.eclipse.nebula.widgets.pgroup.PGroup.access$4(PGroup.java:419)
+	at org.eclipse.nebula.widgets.pgroup.PGroup$8.handleEvent(PGroup.java:303)
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
@@ -143,16 +171,310 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-!SESSION 2023-05-16 13:53:14.595 -----------------------------------------------
+
+!ENTRY org.eclipse.ui 4 0 2023-05-12 17:17:16.198
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.nebula.widgets.pgroup.PGroup.onMouseMove(PGroup.java:446)
+	at org.eclipse.nebula.widgets.pgroup.PGroup.access$4(PGroup.java:419)
+	at org.eclipse.nebula.widgets.pgroup.PGroup$8.handleEvent(PGroup.java:303)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at com.provar.eclipse.application.ProvarApplication.start(ProvarApplication.java:83)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:17:16.469
+!MESSAGE (LHKHUAUT) Chrome IDE Send: Timeout waiting for Chrome IDE endpoint.  Request: IDE.sessionEnded
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:29.637
+!MESSAGE Selection set to [com.provar.core.model.test.java.ApiCallImpl@155899d8]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:29.774
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 73
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:30.458
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1683892050458
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:32.961
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1683892052961
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:33.610
+!MESSAGE Selection set to [com.provar.core.model.test.java.ApiCallImpl@5543b0f4]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:33.705
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 32
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:36.001
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1683892056001
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:38.313
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 63
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:39.513
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 47
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:41.266
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 47
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:42.466
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 65
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:43.651
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 64
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:47.010
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 44
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:49.119
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 41
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:50.792
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 47
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:51.975
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 48
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:53.411
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 78
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:17:55.191
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 63
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:03.601
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1683892083601
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:07.171
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1683892087171
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:08.101
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1683892088101
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:17.246
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 62
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:33.380
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 49
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:39.123
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts16111941365050117679745364941237100
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:39.186
+!MESSAGE Got Chrome Launch Commandline.  chromeLaunchCommandline: C:\Program Files\Provar\plugins\com.provar.chrome.ide_2.307.10.0\packaging\provarTestBuilder-win32-x64\provarTestBuilder.exe dummyarg {&quot;provarPort&quot;: 59887,&quot;showDevTools&quot;: false,&quot;showEnhancedXpathEditor&quot;: true,&quot;enableAutomationAPIs&quot;: false}
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:39.186
+!MESSAGE Resolved Chrome Launch Commandline.  chromeLaunchCommandline: C:\Program Files\Provar\plugins\com.provar.chrome.ide_2.307.10.0\packaging\provarTestBuilder-win32-x64\provarTestBuilder.exe dummyarg {&quot;provarPort&quot;: 59887,&quot;showDevTools&quot;: false,&quot;showEnhancedXpathEditor&quot;: true,&quot;enableAutomationAPIs&quot;: false}
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:39.205
+!MESSAGE Logging Chrome IDE output to file: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarIde15399317424290630348.txt
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:39.207
+!MESSAGE Executed Chrome Launch Commandline.  chromeLaunchCommandline: C:\Program Files\Provar\plugins\com.provar.chrome.ide_2.307.10.0\packaging\provarTestBuilder-win32-x64\provarTestBuilder.exe dummyarg {&quot;provarPort&quot;: 59887,&quot;showDevTools&quot;: false,&quot;showEnhancedXpathEditor&quot;: true,&quot;enableAutomationAPIs&quot;: false}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:39.524
+!MESSAGE Got Chrome IDE request.  method: RemoteTooling.handshakeRequest, msg: {"method":"RemoteTooling.handshakeRequest","messageId":1}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:39.528
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.ChromeIdeImpl$9
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:39.528
+!MESSAGE Got RemoteTooling handshake
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.513
+!MESSAGE Chrome IDE Endpoint opening.
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.524
+!MESSAGE Got Chrome IDE request.  method: IDE.handshakeRequest, msg: {"method":"IDE.handshakeRequest","messageId":1}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.528
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.ChromeIdeImpl$2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:40.533
+!MESSAGE Got Chrome IDE handshake
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:18:40.533
+!MESSAGE Allocated IDE port number: 49854
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.566
+!MESSAGE Got Chrome IDE request.  method: IDE.getPageControlsRequest, msg: {"messageId":2,"method":"IDE.getPageControlsRequest","sessionId":null,"action":null,"forValues":null,"xpathToParse":null}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.568
+!MESSAGE Got Chrome IDE request.  method: IDE.getAvailableWebComponentsRequest, msg: {"messageId":3,"method":"IDE.getAvailableWebComponentsRequest","sessionId":null,"action":null,"forValues":null,"xpathToParse":null}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.572
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetPageControlsHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.572
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetAvailableWebComponentsHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.576
+!MESSAGE Got Chrome IDE request.  method: IDE.getAllAvailableTestApisRequest, msg: {"messageId":4,"method":"IDE.getAllAvailableTestApisRequest","sessionId":null,"action":null,"forValues":null,"xpathToParse":null}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:40.580
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetAllAvailableTestApisHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:43.049
+!MESSAGE Got Chrome IDE request.  method: IDE.requestTestExecutionStatusUpdates, msg: {"messageId":5,"method":"IDE.requestTestExecutionStatusUpdates","sessionId":13,"action":null,"forValues":null,"xpathToParse":null}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:43.049
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.RequestTestExecutionStatusUpdatesHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:43.049
+!MESSAGE Got RequestTestExecutionStatusUpdates request.  sessionId: 13
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:43.049
+!MESSAGE PowSupport.addTestRunListener - adding listeners for session.  mapSession.getSessionId(): 13
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.446
+!MESSAGE Got Chrome IDE request.  method: IDE.seleniumHandshakeRequest, msg: {"method":"IDE.seleniumHandshakeRequest","messageId":1,"sessionId":"13","subSessionId":"2"}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.454
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.SeleniumHandshakeHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.454
+!MESSAGE Adding Selenium sub session.  sessionId: 13, subSessionId: 2, endpoint: com.provar.eclipse.chrome.ide.server.SeleniumWebSocketEndpoint@417f9fea
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.465
+!MESSAGE Got Chrome IDE request.  method: Provar.getLocatorStrategiesFromProvar, msg: {"method":"Provar.getLocatorStrategiesFromProvar","messageId":2,"sessionId":"13","subSessionId":"2"}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.465
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetLocatorStrategiesHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.760
+!MESSAGE Got Chrome IDE request.  method: IDE.getConnectionDetailsRequest, msg: {"messageId":6,"method":"IDE.getConnectionDetailsRequest","sessionId":"13","action":null,"forValues":null,"xpathToParse":null,"connectionName":"UiTesting:AmazonConnection"}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.767
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetConnectionDetailsHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.774
+!MESSAGE Got Chrome IDE request.  method: IDE.getDateTimeFormatRequest, msg: {"messageId":7,"method":"IDE.getDateTimeFormatRequest","sessionId":null,"action":null,"forValues":null,"xpathToParse":null,"connectionDetails":{"name":"UiTesting:AmazonConnection","url":"se:baseUrl=ht
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:18:48.779
+!MESSAGE Calling Chrome IDE request handler: com.provar.plugins.forcedotcom.ui.chrome.ide.handlers.GetDateTimeFormatHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:18:48.788
+!MESSAGE Exception handling Chrome IDE request.  Task: Getting Salesforce connection, Cause: [NoProviderException] / com.provar.core.connection.api.NoProviderException: null
+!STACK 0
+com.provar.core.connection.api.NoProviderException
+	at com.provar.core.connection.api.RuntimeConnectionProviderServiceImpl.getProvider(RuntimeConnectionProviderServiceImpl.java:247)
+	at com.provar.core.connection.api.RuntimeConnectionProviderServiceImpl.provide(RuntimeConnectionProviderServiceImpl.java:101)
+	at com.provar.plugins.forcedotcom.core.osgi.SfPluginActivator$3.run(SfPluginActivator.java:657)
+	at com.provar.plugins.forcedotcom.core.osgi.SfPluginActivator$3.run(SfPluginActivator.java:1)
+	at com.provar.core.model.base.java.ExecutionServiceImpl$18.run(ExecutionServiceImpl.java:1452)
+	at com.provar.core.model.base.java.ExecutionServiceImpl.withResourceLockWithException(ExecutionServiceImpl.java:1476)
+	at com.provar.plugins.forcedotcom.core.osgi.SfPluginActivator.getApexConnection(SfPluginActivator.java:636)
+	at com.provar.plugins.forcedotcom.core.osgi.SfPluginActivator.getApexConnection(SfPluginActivator.java:596)
+	at com.provar.plugins.forcedotcom.ui.chrome.ide.handlers.GetDateTimeFormatHandler$1.run(GetDateTimeFormatHandler.java:75)
+	at com.provar.plugins.forcedotcom.ui.chrome.ide.handlers.GetDateTimeFormatHandler$1.run(GetDateTimeFormatHandler.java:1)
+	at com.provar.core.model.base.java.ExecutionServiceImpl$5.run(ExecutionServiceImpl.java:447)
+	at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:463)
+	at com.provar.core.model.base.java.ExecutionServiceImpl.syncExec(ExecutionServiceImpl.java:307)
+	at com.provar.plugins.forcedotcom.ui.chrome.ide.handlers.GetDateTimeFormatHandler.getApexConnection(GetDateTimeFormatHandler.java:70)
+	at com.provar.plugins.forcedotcom.ui.chrome.ide.handlers.GetDateTimeFormatHandler.handleRequest(GetDateTimeFormatHandler.java:50)
+	at com.provar.plugins.forcedotcom.ui.chrome.ide.handlers.GetDateTimeFormatHandler.handleRequest(GetDateTimeFormatHandler.java:1)
+	at com.provar.eclipse.chrome.ide.server.WebSocketServer.callHandlerOnCurrentThread(WebSocketServer.java:336)
+	at com.provar.eclipse.chrome.ide.server.WebSocketServer$1.run(WebSocketServer.java:296)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:19:41.056
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 47
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:19:43.831
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:19:43.836
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:19:43.836
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:19:43.836
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:19:43.848
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:19:43.848
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:19:45.239
+!MESSAGE Validate test cases - end.  Validated count: 11, skipped count: 0, duration(ms): 1391
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:19:47.397
+!MESSAGE Got Chrome IDE request.  method: IDE.getContextMenuPropertiesRequest, msg: {"messageId":8,"method":"IDE.getContextMenuPropertiesRequest","sessionId":"13","action":null,"forValues":null,"xpathToParse":null,"testCaseSpecifier":{"disposition":"Existing","testCasePath":"C:\\User
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:19:47.397
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.GetContextMenuPropertiesHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:19:51.531
+!MESSAGE Got Chrome IDE request.  method: IDE.debugAction, msg: {"messageId":9,"method":"IDE.debugAction","sessionId":"13","action":"JumpTo","forValues":null,"xpathToParse":null,"executionItemId":"root:tests:UI Testing:Make My Trip Error Message.testcase:17:18:12:
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:19:51.538
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.DebugActionHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:19:52.857
+!MESSAGE Got Chrome IDE request.  method: IDE.debugAction, msg: {"messageId":10,"method":"IDE.debugAction","sessionId":"13","action":"Resume","forValues":null,"xpathToParse":null}
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:19:52.862
+!MESSAGE Calling Chrome IDE request handler: com.provar.eclipse.chrome.ide.handlers.DebugActionHandler
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:20:06.264
+!MESSAGE Chrome IDE Endpoint closing.
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-12 17:20:06.268
+!MESSAGE Stopping Chrome IDE because of WebSocket disconnection.
+
+!ENTRY com.provar.eclipse.chrome.ide 1 1 2023-05-12 17:20:06.276
+!MESSAGE Chrome IDE heartbeat listener exiting
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:25:15.228
+!MESSAGE (LHKI4K9H) sendTestExecutionStatusUpdate: The requested sessionId was not found.  SessionId: 13
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:25:15.231
+!MESSAGE (LHKI4K9O) sendTestExecutionStatusUpdate: The requested sessionId was not found.  SessionId: 13
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:25:20.242
+!MESSAGE (LHKI4O4Y) Chrome IDE Send: Timeout waiting for Chrome IDE endpoint.  Request: IDE.sessionEnded
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:25:23.993
+!MESSAGE (LHKI4R15) Chrome IDE Send: Timeout waiting for Chrome IDE endpoint.  Request: IDE.sessionEnded
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:25:23.993
+!MESSAGE (LHKI4R15) Chrome IDE Send: Timeout waiting for Chrome IDE endpoint.  Request: IDE.testExecutionStatusUpdate
+
+!ENTRY com.provar.eclipse.chrome.ide 4 4 2023-05-12 17:25:24.340
+!MESSAGE (LHKI4RAS) Chrome IDE Send: Timeout waiting for Chrome IDE endpoint.  Request: IDE.sessionEnded
+!SESSION 2023-05-15 10:40:54.445 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=11.0.16.1
 java.vendor=Amazon.com Inc.
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -Dcom.provar.devmode=false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean -Dcom.provar.devmode=false
 
-!ENTRY org.eclipse.osgi 4 0 2023-05-16 13:53:15.090
-!MESSAGE The -clean (osgi.clean) option was not successful. Unable to clean the storage area: C:\Users\akshay.panwar\Provar\.configuration\configuration\org.eclipse.osgi
-
-!ENTRY com.atlassian.connector.eclipse.monitor.ui 4 0 2023-05-16 13:53:24.405
+!ENTRY com.atlassian.connector.eclipse.monitor.ui 4 0 2023-05-15 10:41:02.517
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.atlassian.connector.eclipse.monitor.ui [6]
@@ -169,24 +491,673 @@ org.osgi.framework.BundleException: Could not resolve module: com.atlassian.conn
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
 
-!ENTRY org.eclipse.ui 2 0 2023-05-16 13:53:27.489
+!ENTRY org.eclipse.ui 2 0 2023-05-15 10:41:05.005
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-16 13:53:27.489
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-15 10:41:05.005
 !MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
 
-!ENTRY org.eclipse.ui 2 0 2023-05-16 13:53:28.001
+!ENTRY org.eclipse.ui 2 0 2023-05-15 10:41:05.493
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-16 13:53:28.001
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-15 10:41:05.493
 !MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
 
-!ENTRY org.eclipse.egit.ui 2 0 2023-05-16 13:53:30.841
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:09.328
+!MESSAGE Start of loadTestCaseMap
+
+!ENTRY com.provar.eclipse.ui 4 4 2023-05-15 10:41:09.347
+!MESSAGE Error loading Test Plan Items / java.lang.NullPointerException: null
+!STACK 0
+java.lang.NullPointerException
+	at com.provar.eclipse.ui.Activator.logException(Activator.java:1207)
+	at com.provar.eclipse.ui.testplans.TestPlanItemRegistryServiceImpl$InitialTestPlanItemLoadThread.run(TestPlanItemRegistryServiceImpl.java:493)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:09.349
+!MESSAGE Start of loadUiScreenMappingCache
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:09.349
+!MESSAGE End of loadUiScreenMappingCache - resource folder not found: C:\Users\akshay.panwar\Provar\WorkspaceAssignment\Assignment\src\resources
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:09.360
+!MESSAGE TestPlugin loaded.  name: salesforce, from bundle: com.provar.plugins.sf.eclipse.ui
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:09.375
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: null, old status: unstarted, new status: starting
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:09.375
+!MESSAGE Loaded callable test case into map.  Name:  Convert Lead Callable.testcase, id: IdentifierImpl{id=55f207a9-f390-4173-9dd9-33fc150a02d4}
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:13.499
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: IdentifierImpl{id=1}, old status: starting, new status: started
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:13.781
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 05:11:13.781
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-05-15 10:41:14.977
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\akshay.panwar'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.ui 4 0 2023-05-16 13:56:48.312
+!ENTRY org.eclipse.ui.navigator 4 0 2023-05-15 10:41:19.351
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/Assignment/bin". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2023-05-15 10:41:19.360
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/Assignment/bin". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:19.791
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:19.791
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:19.791
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:19.791
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:19.791
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:19.791
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:20.185
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:20.202
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:20.204
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:20.204
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:20.204
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:41:20.204
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 2 0 2023-05-15 10:41:49.447
+!MESSAGE Failed to connect to Master Lock Manager - assuming dead.  Host: localhost, port: 59861, cause: Connection refused: no further information
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-15 10:41:50.307
+!MESSAGE ApexConnection.getApexConnection - start.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@5fec055e, thread: Worker-0: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-15 10:42:00.504
+!MESSAGE ApexConnection.getApexConnection - exit loaded.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@5fec055e, thread: Worker-0: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 10:42:18.958
+!MESSAGE Validate test cases - end.  Validated count: 11, skipped count: 0, duration(ms): 29583
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:06:30.898
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 05:36:30.898
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:35:20.937
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684130720937
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:35:25.082
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684130725082
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:35:35.751
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 06:05:35.751
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:35:40.164
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684130740164
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:35:48.159
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684130748159
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:35:56.559
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684130756559
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:36:11.035
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684130771035
+
+!ENTRY org.eclipse.jface 2 0 2023-05-15 11:36:19.904
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-15 11:36:19.904
+!MESSAGE A conflict occurred for CTRL+SHIFT+K:
+Binding(CTRL+SHIFT+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findPrevious,Find Previous,
+		Find previous item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findPrevious"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findPrevious,Find Previous,
+		Find previous item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findPrevious"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-15 11:36:19.904
+!MESSAGE A conflict occurred for CTRL+K:
+Binding(CTRL+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findNext,Find Next,
+		Find next item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findNext"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findNext,Find Next,
+		Find next item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findNext"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-15 11:36:19.904
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.showInformation"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:36:29.602
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684130789602
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:36:46.520
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684130806520
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 11:54:25.116
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684131865116
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 14:15:57.234
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 14:15:57.239
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 14:15:57.243
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 14:15:57.248
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 14:15:57.253
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 14:15:57.258
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 14:15:59.119
+!MESSAGE Validate test cases - end.  Validated count: 11, skipped count: 0, duration(ms): 1860
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:02:44.869
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 10:32:44.869
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:02:48.332
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684146768331
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:02:55.123
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:02:55.871
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:02:56.600
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:02:59.417
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684146779417
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:03:09.456
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:22:21.861
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 4
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:22:53.018
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:22:53.744
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:22:55.048
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:22:55.929
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:22:57.295
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:22:58.048
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:23:05.006
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 15
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:23:08.233
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:23:10.186
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:23:12.125
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:23:13.179
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:23:14.768
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:23:28.458
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:23:38.715
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts120439564534847262766185234993800
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:24:13.087
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148053087
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:24:15.575
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148055575
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:26:09.920
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148169919
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:18.858
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148238858
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:26.991
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:28.047
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:30.333
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:32.176
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:32.918
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:34.462
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:46.927
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:49.634
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:51.852
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:53.598
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:55.675
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:56.555
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:27:57.344
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:08.558
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:12.900
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:13.813
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:15.637
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:16.519
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:17.938
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:18.662
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:21.258
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:21.997
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:23.304
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:27.067
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:28:36.068
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1667221744767734977866482590399500
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:05.553
+!MESSAGE Selection set to [com.provar.core.model.test.java.TestCaseImpl@5efad40e]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:05.622
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 6
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:06.136
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148346136
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:10.252
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:13.108
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:13.486
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148353486
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:34.021
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:36.267
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148376267
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:39.500
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148379500
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:29:43.613
+!MESSAGE TestSettings - activating context: com.provar.eclipse.ui.views.TestSettingsView.ConnectionsTab
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:30:13.026
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148413026
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:30:28.655
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:30:29.017
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148429016
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:30:29.024
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:30:34.525
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:30:35.927
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:32:54.393
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684148574393
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:34:39.802
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:34:43.903
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:34:45.248
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:34:48.315
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 9
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:34:53.849
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:35:02.648
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1078582163704570684366869175916299
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:41:44.700
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:41:45.433
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:41:45.491
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149105491
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:41:52.844
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:41:59.625
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts419984050219708055467286143234799
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:46:35.443
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149395435
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:46:38.928
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149398928
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:46:46.498
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:46:47.279
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149407279
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:47:32.461
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 8
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:47:34.345
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:47:35.890
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:47:36.353
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:47:37.175
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 8
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:47:37.610
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:47:38.163
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:47:43.712
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:48:01.464
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1334957009814040840567647983023099
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:50:16.150
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149616150
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:50:30.248
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149630248
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:51:40.151
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:51:47.723
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:51:56.117
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts599502493369929076467882635312900
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:52:19.364
+!MESSAGE Selection set to [com.provar.core.model.test.java.ApiCallImpl@4b8246fb]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:52:19.437
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:52:22.978
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149742978
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:52:41.710
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1462542330489434646067928238356400
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:53:13.607
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:53:15.364
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:53:28.344
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1538288134074842304667974869542700
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:53:50.798
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149830798
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:54:29.538
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684149869538
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:54:33.106
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:54:35.445
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:54:41.915
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1209667756968627388568048433109699
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:58:06.445
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150086445
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:58:44.297
+!MESSAGE Selection set to [com.provar.core.model.test.java.ApiCallImpl@4b8246fb]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:58:44.360
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:58:45.311
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150125311
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:59:58.642
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 15
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 16:59:58.832
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150198832
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:01.044
+!MESSAGE Selection set to [com.provar.core.model.test.java.ApiCallImpl@4b8246fb]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:01.107
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:01.950
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150201950
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:17.087
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150217087
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:17.355
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:18.017
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150218017
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:19.829
+!MESSAGE Selection set to [com.provar.core.model.test.java.ApiCallImpl@536e27c1]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:19.908
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:29.229
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150229229
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:30.100
+!MESSAGE Selection set to [com.provar.core.model.test.java.ApiCallImpl@483a269c]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:30.164
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:33.236
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150233236
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:33.500
+!MESSAGE Selection set to [com.provar.core.model.test.java.ApiCallImpl@d8d69b8]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:33.562
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:41.214
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1328253202163365447868407730005300
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:00:45.588
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150245588
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:01:11.988
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684150271988
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:01:14.604
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:01:16.474
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:01:16.914
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:01:30.122
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1556305146432360927268456652818600
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:01:47.071
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:01:49.244
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:01:49.735
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:02:05.160
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1332811295502699691668491682126100
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:05:10.446
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:05:11.933
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:05:14.082
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:05:19.430
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1569312250995888920368685949484800
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:27:56.424
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684151876408
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:27:58.221
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:28:00.297
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:28:00.706
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:46:25.613
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 4
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:46:25.736
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 12:16:25.736
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-15 17:46:34.099
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684152994099
+
+!ENTRY org.eclipse.ui 4 0 2023-05-15 17:50:58.028
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
@@ -242,27 +1213,390 @@ java.lang.NullPointerException
 	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
 	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
 	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
-	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2466)
-	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.restart(OpenWorkspaceAction.java:221)
-	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.run(OpenWorkspaceAction.java:209)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1367)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4747)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4846)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4846)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at com.provar.eclipse.application.ProvarApplication.start(ProvarApplication.java:83)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-05-16 10:40:03.434 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.16.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -Dcom.provar.devmode=false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean -Dcom.provar.devmode=false
+
+!ENTRY com.atlassian.connector.eclipse.monitor.ui 4 0 2023-05-16 10:40:15.285
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.atlassian.connector.eclipse.monitor.ui [6]
+  Unresolved requirement: Require-Bundle: com.atlassian.connector.eclipse.branding.ui
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.ui 2 0 2023-05-16 10:40:25.007
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-16 10:40:25.007
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY org.eclipse.ui 2 0 2023-05-16 10:40:26.835
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-16 10:40:26.835
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:43.786
+!MESSAGE Start of loadTestCaseMap
+
+!ENTRY com.provar.eclipse.ui 4 4 2023-05-16 10:40:43.833
+!MESSAGE Error loading Test Plan Items / java.lang.NullPointerException: null
+!STACK 0
+java.lang.NullPointerException
+	at com.provar.eclipse.ui.Activator.logException(Activator.java:1207)
+	at com.provar.eclipse.ui.testplans.TestPlanItemRegistryServiceImpl$InitialTestPlanItemLoadThread.run(TestPlanItemRegistryServiceImpl.java:493)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:43.848
+!MESSAGE Start of loadUiScreenMappingCache
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:43.852
+!MESSAGE End of loadUiScreenMappingCache - resource folder not found: C:\Users\akshay.panwar\Provar\WorkspaceAssignment\Assignment\src\resources
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:43.928
+!MESSAGE TestPlugin loaded.  name: salesforce, from bundle: com.provar.plugins.sf.eclipse.ui
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:43.975
+!MESSAGE Loaded callable test case into map.  Name:  Convert Lead Callable.testcase, id: IdentifierImpl{id=55f207a9-f390-4173-9dd9-33fc150a02d4}
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:43.990
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: null, old status: unstarted, new status: starting
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:49.931
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: IdentifierImpl{id=1}, old status: starting, new status: started
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:50.782
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 05:10:50.772
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-05-16 10:40:54.984
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\akshay.panwar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.provar.eclipse.ui 2 0 2023-05-16 10:40:55.077
+!MESSAGE Failed to connect to Master Lock Manager - assuming dead.  Host: localhost, port: 50646, cause: Connection refused: no further information
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:40:57.911
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2986
+
+!ENTRY org.eclipse.ui.navigator 4 0 2023-05-16 10:41:07.730
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/Assignment/bin". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2023-05-16 10:41:07.745
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/Assignment/bin". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.035
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.038
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.041
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.043
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.045
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.047
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.584
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.584
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.584
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.584
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.597
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:08.600
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-16 10:41:23.989
+!MESSAGE ApexConnection.getApexConnection - start.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@a336c36, thread: Worker-8: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-16 10:41:32.571
+!MESSAGE ApexConnection.getApexConnection - exit loaded.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@a336c36, thread: Worker-8: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:34.792
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 05:11:34.792
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:47.973
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684213907973
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:41:50.224
+!MESSAGE Validate test cases - end.  Validated count: 11, skipped count: 0, duration(ms): 26298
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:13.560
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684214173560
+
+!ENTRY org.eclipse.jface 2 0 2023-05-16 10:46:16.943
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-16 10:46:16.943
+!MESSAGE A conflict occurred for CTRL+SHIFT+K:
+Binding(CTRL+SHIFT+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findPrevious,Find Previous,
+		Find previous item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findPrevious"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findPrevious,Find Previous,
+		Find previous item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findPrevious"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-16 10:46:16.943
+!MESSAGE A conflict occurred for CTRL+K:
+Binding(CTRL+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findNext,Find Next,
+		Find next item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findNext"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findNext,Find Next,
+		Find next item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findNext"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-16 10:46:16.943
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.showInformation"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:22.571
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684214182571
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:26.012
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:30.665
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:32.084
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:35.678
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:37.050
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:48.877
+!MESSAGE Selection set to [com.provar.core.model.test.java.TestCaseImpl@5c24724]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:48.944
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 4
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:49.020
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:50.611
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684214210611
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:52.971
+!MESSAGE Selection set to [com.provar.core.model.test.java.TestCaseImpl@5c24724]
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:53.050
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 16
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:46:55.584
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684214215584
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:47:47.329
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684214267329
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:47:53.792
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:47:55.861
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:47:56.681
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:48:02.845
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684214282845
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:50:33.618
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:50:36.783
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:50:36.861
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:50:37.790
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684214437790
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:50:42.735
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:50:43.755
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:50:43.771
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684214443771
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:53:27.871
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:53:35.243
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:53:36.538
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:54:06.972
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts2461006024044957749132814231355700
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:59:34.545
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 10:59:35.873
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:06:42.363
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 05:36:42.351
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:06:55.388
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 05:36:55.388
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:15:57.015
+!MESSAGE TestSettings - activating context: com.provar.eclipse.ui.views.TestSettingsView.ConnectionsTab
+
+!ENTRY org.eclipse.ui 2 2 2023-05-16 11:25:09.351
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.json.ui, propertyPage: org.eclipse.wst.json.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2023-05-16 11:25:30.798
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.viewers.CustomHashtable.hashCode(CustomHashtable.java:270)
+	at org.eclipse.jface.viewers.CustomHashtable.get(CustomHashtable.java:242)
+	at org.eclipse.jface.viewers.StructuredViewer.findItems(StructuredViewer.java:752)
+	at org.eclipse.jface.viewers.StructuredViewer.findItem(StructuredViewer.java:716)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2167)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:553)
+	at org.eclipse.ui.navigator.CommonNavigator.handleDoubleClick(CommonNavigator.java:550)
+	at com.provar.eclipse.ui.ProvarCommonNavigator.handleDoubleClick(ProvarCommonNavigator.java:132)
+	at org.eclipse.ui.navigator.CommonNavigator$2.run(CommonNavigator.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.CommonNavigator.lambda$2(CommonNavigator.java:523)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:780)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:777)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1542)
+	at org.eclipse.ui.navigator.CommonViewer.handleDoubleSelect(CommonViewer.java:448)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1211)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:329)
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
@@ -289,3 +1623,378 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2023-05-16 11:25:30.913
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.viewers.CustomHashtable.hashCode(CustomHashtable.java:270)
+	at org.eclipse.jface.viewers.CustomHashtable.get(CustomHashtable.java:242)
+	at org.eclipse.jface.viewers.StructuredViewer.findItems(StructuredViewer.java:752)
+	at org.eclipse.jface.viewers.StructuredViewer.findItem(StructuredViewer.java:716)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.isExpandable(AbstractTreeViewer.java:2167)
+	at org.eclipse.jface.viewers.TreeViewer.isExpandable(TreeViewer.java:553)
+	at org.eclipse.ui.navigator.CommonNavigator.handleDoubleClick(CommonNavigator.java:550)
+	at com.provar.eclipse.ui.ProvarCommonNavigator.handleDoubleClick(ProvarCommonNavigator.java:132)
+	at org.eclipse.ui.navigator.CommonNavigator$2.run(CommonNavigator.java:526)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.CommonNavigator.lambda$2(CommonNavigator.java:523)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:780)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:777)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1542)
+	at org.eclipse.ui.navigator.CommonViewer.handleDoubleSelect(CommonViewer.java:448)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1211)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:329)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at com.provar.eclipse.application.ProvarApplication.start(ProvarApplication.java:83)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:28:31.448
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts8652666459243330876134878708249500
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:44:50.767
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:44:50.767
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:44:50.767
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:44:50.783
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:44:50.783
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:44:50.783
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 0, removed count: 6
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 11:44:52.172
+!MESSAGE Validate test cases - end.  Validated count: 11, skipped count: 0, duration(ms): 1377
+!SESSION 2023-05-16 12:32:19.106 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.16.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -Dcom.provar.devmode=false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean -Dcom.provar.devmode=false
+
+!ENTRY com.atlassian.connector.eclipse.monitor.ui 4 0 2023-05-16 12:32:31.023
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.atlassian.connector.eclipse.monitor.ui [6]
+  Unresolved requirement: Require-Bundle: com.atlassian.connector.eclipse.branding.ui
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.ui 2 0 2023-05-16 12:33:07.075
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-16 12:33:07.075
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY org.eclipse.ui 2 0 2023-05-16 12:33:07.699
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-16 12:33:07.699
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:12.693
+!MESSAGE Start of loadTestCaseMap
+
+!ENTRY com.provar.eclipse.ui 4 4 2023-05-16 12:33:12.709
+!MESSAGE Error loading Test Plan Items / java.lang.NullPointerException: null
+!STACK 0
+java.lang.NullPointerException
+	at com.provar.eclipse.ui.Activator.logException(Activator.java:1207)
+	at com.provar.eclipse.ui.testplans.TestPlanItemRegistryServiceImpl$InitialTestPlanItemLoadThread.run(TestPlanItemRegistryServiceImpl.java:493)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:12.709
+!MESSAGE Start of loadUiScreenMappingCache
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:12.709
+!MESSAGE End of loadUiScreenMappingCache - resource folder not found: C:\Users\akshay.panwar\Provar\WorkspaceAssignment\Assignment\src\resources
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:12.741
+!MESSAGE TestPlugin loaded.  name: salesforce, from bundle: com.provar.plugins.sf.eclipse.ui
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:12.756
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: null, old status: unstarted, new status: starting
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:12.756
+!MESSAGE Loaded callable test case into map.  Name:  Convert Lead Callable.testcase, id: IdentifierImpl{id=55f207a9-f390-4173-9dd9-33fc150a02d4}
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:16.894
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: IdentifierImpl{id=1}, old status: starting, new status: started
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:17.162
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 07:03:17.162
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-05-16 12:33:18.374
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\akshay.panwar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:24.371
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 1, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:24.371
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:24.371
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:24.371
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:24.387
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:33:24.387
+!MESSAGE End of sendPageObjectUpdate.  added count: 6, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 2 0 2023-05-16 12:33:52.818
+!MESSAGE Failed to connect to Master Lock Manager - assuming dead.  Host: localhost, port: 64331, cause: Connection refused: no further information
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-16 12:33:53.449
+!MESSAGE ApexConnection.getApexConnection - start.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@7a791be3, thread: Worker-0: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-16 12:33:59.945
+!MESSAGE ApexConnection.getApexConnection - exit loaded.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@7a791be3, thread: Worker-0: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 12:34:22.284
+!MESSAGE Validate test cases - end.  Validated count: 11, skipped count: 0, duration(ms): 29523
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:29:41.875
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:29:41.875
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:29:41.882
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:29:41.882
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:29:41.882
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:29:41.882
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:29:43.233
+!MESSAGE Validate test cases - end.  Validated count: 11, skipped count: 0, duration(ms): 1341
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:29:58.991
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 07:59:58.991
+
+!ENTRY org.eclipse.ui 2 2 2023-05-16 13:30:43.977
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.json.ui, propertyPage: org.eclipse.wst.json.ui.propertyPage.project.validation)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:09.591
+!MESSAGE Processing new TestCase.  Name:  Custom API Practice.testcase, isTestCase: true
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:09.652
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 08:02:09.652
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:28.843
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 08:02:28.843
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:30.001
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 08:02:30.001
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:30.034
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 2
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:31.618
+!MESSAGE Processing renamed TestCase.  Name:  Custom API Practice.testcase
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.411
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.416
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.421
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.421
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.421
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.431
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.763
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.771
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.771
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.771
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.782
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-16 13:32:42.782
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+!SESSION 2023-05-17 11:56:33.897 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.16.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -Dcom.provar.devmode=false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean -Dcom.provar.devmode=false
+
+!ENTRY com.atlassian.connector.eclipse.monitor.ui 4 0 2023-05-17 11:56:44.310
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.atlassian.connector.eclipse.monitor.ui [6]
+  Unresolved requirement: Require-Bundle: com.atlassian.connector.eclipse.branding.ui
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-05-17 11:57:45.186
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2023-05-17 11:57:46.383
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-17 11:57:46.383
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY org.eclipse.ui 2 0 2023-05-17 11:57:47.148
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-17 11:57:47.148
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-05-17 11:57:53.448
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\akshay.panwar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:57:55.935
+!MESSAGE Start of loadTestCaseMap
+
+!ENTRY com.provar.eclipse.ui 4 4 2023-05-17 11:57:55.950
+!MESSAGE Error loading Test Plan Items / java.lang.NullPointerException: null
+!STACK 0
+java.lang.NullPointerException
+	at com.provar.eclipse.ui.Activator.logException(Activator.java:1207)
+	at com.provar.eclipse.ui.testplans.TestPlanItemRegistryServiceImpl$InitialTestPlanItemLoadThread.run(TestPlanItemRegistryServiceImpl.java:493)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:57:55.956
+!MESSAGE Start of loadUiScreenMappingCache
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:57:55.956
+!MESSAGE End of loadUiScreenMappingCache - resource folder not found: C:\Users\akshay.panwar\Provar\WorkspaceAssignment\Assignment\src\resources
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:57:55.972
+!MESSAGE TestPlugin loaded.  name: salesforce, from bundle: com.provar.plugins.sf.eclipse.ui
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:57:56.045
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: null, old status: unstarted, new status: starting
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:57:56.060
+!MESSAGE Loaded callable test case into map.  Name:  Convert Lead Callable.testcase, id: IdentifierImpl{id=55f207a9-f390-4173-9dd9-33fc150a02d4}
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:57:59.013
+!MESSAGE Processing new TestCase.  Name:  Custom API Practice.testcase, isTestCase: true
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:58:01.915
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: IdentifierImpl{id=1}, old status: starting, new status: started
+
+!ENTRY com.provar.eclipse.ui 2 0 2023-05-17 11:58:36.123
+!MESSAGE Failed to connect to Master Lock Manager - assuming dead.  Host: localhost, port: 49807, cause: Connection refused: no further information
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-17 11:58:36.788
+!MESSAGE ApexConnection.getApexConnection - start.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@43f0cd4b, thread: Worker-5: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-17 11:58:49.270
+!MESSAGE ApexConnection.getApexConnection - exit loaded.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@43f0cd4b, thread: Worker-5: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 11:59:17.062
+!MESSAGE Validate test cases - end.  Validated count: 12, skipped count: 0, duration(ms): 40998
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 12:33:09.942
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 12:33:10.036
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 07:03:10.036
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 12:33:13.698
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684306993698
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 12:33:38.217
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 12:33:40.960
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 1
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 12:33:51.185
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684307031185
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 12:33:55.861
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684307035861
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 12:34:01.011
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684307041011
+
+!ENTRY org.eclipse.ui 2 2 2023-05-17 14:41:27.768
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.json.ui, propertyPage: org.eclipse.wst.json.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-05-17 14:41:45.648
+!MESSAGE File toolbar contribution item is missing
