@@ -1998,3 +1998,606 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.ui.ide 4 4 2023-05-17 14:41:45.648
 !MESSAGE File toolbar contribution item is missing
+
+!ENTRY org.eclipse.egit.core 4 0 2023-05-17 15:08:28.276
+!MESSAGE An exception occurred during push on URI https://github.com/akshay-panwar228/Provar-TrainingAssignment.git: https://github.com/akshay-panwar228/Provar-TrainingAssignment.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/akshay-panwar228/Provar-TrainingAssignment.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1473)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:254)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-17 15:08:28.282
+!MESSAGE Can't connect to any repository: https://github.com/akshay-panwar228/Provar-TrainingAssignment.git (https://github.com/akshay-panwar228/Provar-TrainingAssignment.git: not authorized)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:08:50.475
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 09:38:50.475
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:09:09.394
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684316349394
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:11:53.507
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684316513507
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:15:25.486
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts1065380111647558576096221897640200
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:16:56.516
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684316816516
+
+!ENTRY org.eclipse.jface 2 0 2023-05-17 15:17:07.501
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 15:17:07.501
+!MESSAGE A conflict occurred for CTRL+SHIFT+K:
+Binding(CTRL+SHIFT+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findPrevious,Find Previous,
+		Find previous item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findPrevious"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findPrevious,Find Previous,
+		Find previous item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findPrevious"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 15:17:07.501
+!MESSAGE A conflict occurred for CTRL+K:
+Binding(CTRL+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findNext,Find Next,
+		Find next item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findNext"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+K,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findNext,Find Next,
+		Find next item,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findNext"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-05-17 15:17:07.501
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.showInformation"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:17:10.640
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:17:12.107
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:17:16.149
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 17
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:17:18.486
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:17:26.948
+!MESSAGE Allocated test artifacts folder: C:\Users\AKSHAY~1.PAN\AppData\Local\Temp\ProvarTestArtifacts419260874048794583896343349516000
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:20:30.896
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684317030896
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:21:32.029
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684317092029
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-05-17 15:31:30.290
+!MESSAGE File toolbar contribution item is missing
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-05-17 15:33:18.007
+!MESSAGE File toolbar contribution item is missing
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-17 15:35:20.164
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.read0(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+	at org.eclipse.jgit.util.IO.readWholeStream(IO.java:169)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredInputStream(WorkingTreeIterator.java:413)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:603)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:200)
+	at org.eclipse.egit.ui.internal.staging.StagingView$56.run(StagingView.java:3835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-17 15:35:25.634
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.read0(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+	at org.eclipse.jgit.util.IO.readWholeStream(IO.java:169)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredInputStream(WorkingTreeIterator.java:413)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:603)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:200)
+	at org.eclipse.egit.ui.internal.staging.StagingView$56.run(StagingView.java:3835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-17 15:38:25.871
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.read0(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+	at org.eclipse.jgit.util.IO.readWholeStream(IO.java:169)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredInputStream(WorkingTreeIterator.java:413)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:603)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:200)
+	at org.eclipse.egit.ui.internal.staging.StagingView$56.run(StagingView.java:3835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:38:48.861
+!MESSAGE TestSettings - activating context: com.provar.eclipse.ui.views.TestSettingsView.ConnectionsTab
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:38:54.049
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 10:08:54.049
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:38:55.916
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684318135916
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:38:58.559
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 10:08:58.559
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:39:01.847
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684318141847
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-17 15:39:13.976
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.read0(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+	at org.eclipse.jgit.util.IO.readWholeStream(IO.java:169)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredInputStream(WorkingTreeIterator.java:413)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:603)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:200)
+	at org.eclipse.egit.ui.internal.staging.StagingView$56.run(StagingView.java:3835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-17 15:39:27.244
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.read0(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+	at org.eclipse.jgit.util.IO.readWholeStream(IO.java:169)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredInputStream(WorkingTreeIterator.java:413)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:603)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:200)
+	at org.eclipse.egit.ui.internal.staging.StagingView$56.run(StagingView.java:3835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:39:53.004
+!MESSAGE End of setTestStep.layoutRunnable.  Thread: 1:main, utc: 1684318193004
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-17 15:40:32.819
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/java.io.FileInputStream.read0(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+	at org.eclipse.jgit.util.IO.readWholeStream(IO.java:169)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredInputStream(WorkingTreeIterator.java:413)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:603)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:200)
+	at org.eclipse.egit.ui.internal.staging.StagingView$56.run(StagingView.java:3835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.compare 4 1 2023-05-17 15:41:17.073
+!MESSAGE Internal Error
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:54)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:223)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.compare.internal.BinaryCompareViewer.setInput(BinaryCompareViewer.java:96)
+	at org.eclipse.compare.CompareViewerSwitchingPane.setInput(CompareViewerSwitchingPane.java:268)
+	at org.eclipse.compare.internal.CompareContentViewerSwitchingPane.setInput(CompareContentViewerSwitchingPane.java:202)
+	at org.eclipse.compare.CompareEditorInput.internalSetContentPaneInput(CompareEditorInput.java:806)
+	at org.eclipse.compare.CompareEditorInput.lambda$8(CompareEditorInput.java:747)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.compare.CompareEditorInput.feed1(CompareEditorInput.java:742)
+	at org.eclipse.compare.CompareEditorInput.feedInput(CompareEditorInput.java:720)
+	at org.eclipse.compare.CompareEditorInput.createContents(CompareEditorInput.java:543)
+	at org.eclipse.compare.internal.CompareEditor.createCompareControl(CompareEditor.java:448)
+	at org.eclipse.compare.internal.CompareEditor$1.lambda$0(CompareEditor.java:366)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at com.provar.eclipse.application.ProvarApplication.start(ProvarApplication.java:83)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.compare 4 1 2023-05-17 15:41:47.324
+!MESSAGE Internal Error
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:54)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:223)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.compare.internal.BinaryCompareViewer.setInput(BinaryCompareViewer.java:96)
+	at org.eclipse.compare.CompareViewerSwitchingPane.setInput(CompareViewerSwitchingPane.java:268)
+	at org.eclipse.compare.internal.CompareContentViewerSwitchingPane.setInput(CompareContentViewerSwitchingPane.java:202)
+	at org.eclipse.compare.CompareEditorInput.internalSetContentPaneInput(CompareEditorInput.java:806)
+	at org.eclipse.compare.CompareEditorInput.lambda$8(CompareEditorInput.java:747)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.compare.CompareEditorInput.feed1(CompareEditorInput.java:742)
+	at org.eclipse.compare.CompareEditorInput.feedInput(CompareEditorInput.java:720)
+	at org.eclipse.compare.CompareEditorInput.createContents(CompareEditorInput.java:543)
+	at org.eclipse.compare.internal.CompareEditor.createCompareControl(CompareEditor.java:448)
+	at org.eclipse.compare.internal.CompareEditor$1.lambda$0(CompareEditor.java:366)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at com.provar.eclipse.application.ProvarApplication.start(ProvarApplication.java:83)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.compare 4 1 2023-05-17 15:41:48.524
+!MESSAGE Internal Error
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:54)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:223)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.compare.internal.BinaryCompareViewer.setInput(BinaryCompareViewer.java:96)
+	at org.eclipse.compare.CompareViewerSwitchingPane.setInput(CompareViewerSwitchingPane.java:268)
+	at org.eclipse.compare.internal.CompareContentViewerSwitchingPane.setInput(CompareContentViewerSwitchingPane.java:202)
+	at org.eclipse.compare.CompareEditorInput.internalSetContentPaneInput(CompareEditorInput.java:806)
+	at org.eclipse.compare.CompareEditorInput.lambda$8(CompareEditorInput.java:747)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.compare.CompareEditorInput.feed1(CompareEditorInput.java:742)
+	at org.eclipse.compare.CompareEditorInput.feedInput(CompareEditorInput.java:720)
+	at org.eclipse.compare.CompareEditorInput.createContents(CompareEditorInput.java:543)
+	at org.eclipse.compare.internal.CompareEditor.createCompareControl(CompareEditor.java:448)
+	at org.eclipse.compare.internal.CompareEditor$1.lambda$0(CompareEditor.java:366)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at com.provar.eclipse.application.ProvarApplication.start(ProvarApplication.java:83)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-05-17 15:43:13.873
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.cleanUpCopy(MenuManagerRenderer.java:474)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.cleanUp(MenuManagerRenderer.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.lambda$1(MenuManagerRenderer.java:421)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$0(WorkbenchWindow.java:329)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4792)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:267)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:158)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:181)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2088)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1090)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1367)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4747)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4846)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at com.provar.eclipse.application.ProvarApplication.start(ProvarApplication.java:83)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-05-17 15:44:39.540 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.16.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -Dcom.provar.devmode=false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean -Dcom.provar.devmode=false
+
+!ENTRY com.atlassian.connector.eclipse.monitor.ui 4 0 2023-05-17 15:44:49.207
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.atlassian.connector.eclipse.monitor.ui [6]
+  Unresolved requirement: Require-Bundle: com.atlassian.connector.eclipse.branding.ui
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.ui 2 0 2023-05-17 15:44:59.059
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-17 15:44:59.059
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY org.eclipse.ui 2 0 2023-05-17 15:45:00.019
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-05-17 15:45:00.019
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:04.618
+!MESSAGE Start of loadTestCaseMap
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:04.618
+!MESSAGE Start of loadUiScreenMappingCache
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:04.618
+!MESSAGE End of loadUiScreenMappingCache - resource folder not found: C:\Users\akshay.panwar\Provar\WorkspaceAssignment\Assignment\src\resources
+
+!ENTRY com.provar.eclipse.ui 4 4 2023-05-17 15:45:04.634
+!MESSAGE Error loading Test Plan Items / java.lang.NullPointerException: null
+!STACK 0
+java.lang.NullPointerException
+	at com.provar.eclipse.ui.Activator.logException(Activator.java:1207)
+	at com.provar.eclipse.ui.testplans.TestPlanItemRegistryServiceImpl$InitialTestPlanItemLoadThread.run(TestPlanItemRegistryServiceImpl.java:493)
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:04.654
+!MESSAGE TestPlugin loaded.  name: salesforce, from bundle: com.provar.plugins.sf.eclipse.ui
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:04.654
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: null, old status: unstarted, new status: starting
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:04.681
+!MESSAGE Loaded callable test case into map.  Name:  Convert Lead Callable.testcase, id: IdentifierImpl{id=55f207a9-f390-4173-9dd9-33fc150a02d4}
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:08.543
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: IdentifierImpl{id=1}, old status: starting, new status: started
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:08.812
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 10:15:08.812
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-05-17 15:45:11.587
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\akshay.panwar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2023-05-17 15:45:16.650
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/Assignment/bin". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2023-05-17 15:45:16.665
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/Assignment/bin". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.013
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.028
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.028
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.028
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.028
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.028
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.579
+!MESSAGE End of updateTestApis.  testPlugin: salesforce, added count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.579
+!MESSAGE End of sendWebComponentUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.579
+!MESSAGE End of sendPageStrategyUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.579
+!MESSAGE End of sendPageWaitUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.579
+!MESSAGE End of sendPageControlUpdate.  added count: 0, modified count: 0, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 1 1 2023-05-17 15:45:17.579
+!MESSAGE End of sendPageObjectUpdate.  added count: 0, modified count: 6, removed count: 0
+
+!ENTRY com.provar.eclipse.ui 2 0 2023-05-17 15:45:44.711
+!MESSAGE Failed to connect to Master Lock Manager - assuming dead.  Host: localhost, port: 54974, cause: Connection refused: no further information
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-17 15:45:45.121
+!MESSAGE ApexConnection.getApexConnection - start.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@d97da5e, thread: Worker-2: Validating test cases
+
+!ENTRY com.provar.eclipse.ui 1 0 2023-05-17 15:45:51.294
+!MESSAGE ApexConnection.getApexConnection - exit loaded.  connectionName: Admin, connectionDetails: com.provar.core.model.base.java.ConnectionDetailsImpl@d97da5e, thread: Worker-2: Validating test cases

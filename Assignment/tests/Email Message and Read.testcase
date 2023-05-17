@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="21">
+<testCase id="0">
   <summary/>
   <steps>
     <apiCall apiId="com.provar.plugins.bundled.apis.control.StepGroup" name="StepGroup" testItemId="12" title="Subscribe Gmail">
@@ -254,8 +254,17 @@
           <value class="value" valueClass="string">false</value>
         </argument>
         <argument id="uiTargetUrl">
-          <value class="variable">
-            <path element="EmailMessage"/>
+          <value class="compound">
+            <parts>
+              <value valueClass="string">https://</value>
+              <variable>
+                <path element="EmailMessage">
+                  <filter class="index">
+                    <index valueClass="decimal">0</index>
+                  </filter>
+                </path>
+              </variable>
+            </parts>
           </value>
         </argument>
       </arguments>
